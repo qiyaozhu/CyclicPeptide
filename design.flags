@@ -1,0 +1,7 @@
+-MPI_batchsize_by_level 10
+-MPI_processes_by_level 1 47
+-in:file:l relax_candidates.txt
+-in:file:fullatom
+-out:path:all /scratch/qz886/FastDesign/
+-parser:protocol design_script.xml
+-parser:script_vars Nres=7

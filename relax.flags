@@ -1,0 +1,7 @@
+-MPI_batchsize_by_level 10
+-MPI_processes_by_level 1 47
+-in:file:l /scratch/qz886/Clustercenters/clustercenter_list.txt
+-in:file:fullatom
+-out:path:all /scratch/qz886/FastRelax/
+-parser:protocol relax_script.xml
+-parser:script_vars Nres=7
