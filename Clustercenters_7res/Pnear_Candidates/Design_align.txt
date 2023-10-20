@@ -1,0 +1,4 @@
+6be9	clustercenter10509_0001_0001	0.471
+6bew	clustercenter2139_0001_0001	0.759
+6bf3	clustercenter1343_0001_0001	0.603
+6bf5	clustercenter8412_0001_0001	0.412
