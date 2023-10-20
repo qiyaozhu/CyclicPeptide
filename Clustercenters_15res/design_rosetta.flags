@@ -1,0 +1,7 @@
+-in:file:silent FastRelax_filtered.txt
+-in:file:fullatom
+-parser:protocol design_script.xml
+-parser:script_vars Nres=15
+-out:file:silent FastDesign_silent.txt
+-mute all
+
