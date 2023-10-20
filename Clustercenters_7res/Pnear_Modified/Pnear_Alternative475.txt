@@ -1,0 +1,12 @@
+SEQUENCE: DIPPVTK
+SCORE:     score     fa_atr     fa_rep     fa_sol    fa_intra_rep    fa_intra_sol_xover4    lk_ball_wtd    fa_elec    pro_close    hbond_sr_bb    hbond_lr_bb    hbond_bb_sc    hbond_sc    dslf_fa13      omega     fa_dun    p_aa_pp    yhh_planarity        ref    rama_prepro    min_internal_hbonds    oversat    rmsd        rms     maxsub       time           description
+SCORE:   -15.869    -21.506      3.639     15.592           0.084                  1.073         -0.171    -10.903        0.208         -2.866          0.000         -0.614      -1.281        0.000     -0.024      5.069     -3.962            0.000     -0.049         -0.159                  3.000      0.000   0.495      0.285      7.000      1.000 Pnear_sample1072_0001
+REMARK PROTEIN SILENTFILE
+ANNOTATED_SEQUENCE: D[ASP:protein_cutpoint_upper]IPP[DPRO]VT[DTHR]K[DLYS:protein_cutpoint_lower] Pnear_sample1072_0001
+   1 L   -89.679    3.258  176.818    1.458    0.000    0.000  -61.674  -21.962    0.000    0.000 Pnear_sample1072_0001
+   2 L  -113.474  117.431 -179.569    1.508    3.532    1.405  -59.894  171.370    0.000    0.000 Pnear_sample1072_0001
+   3 L   -51.829  142.293  178.332    1.911    3.925    5.166  -30.550   38.189  -30.492    0.000 Pnear_sample1072_0001
+   4 L    78.878  -60.205 -177.228   -0.962    5.718    6.892  -31.869   37.940  -28.592    0.000 Pnear_sample1072_0001
+   5 L   -63.211  -47.866 -177.552   -2.986    6.082    3.695  172.245    0.000    0.000    0.000 Pnear_sample1072_0001
+   6 L   135.701  166.681 -178.454   -3.406    2.348    3.119  171.269 -124.448    0.000    0.000 Pnear_sample1072_0001
+   7 L    57.863 -125.406 -180.000   -2.161   -0.469    0.890  177.943  172.028 -179.220   63.502 Pnear_sample1072_0001
