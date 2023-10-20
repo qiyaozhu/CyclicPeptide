@@ -1,0 +1,7 @@
+-in:file:silent ClusterCenters_silent.txt
+-in:file:fullatom
+-parser:protocol relax_script.xml
+-parser:script_vars Nres=24
+-out:file:silent FastRelax_silent.txt
+-mute all
+
