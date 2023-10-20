@@ -1,0 +1,364 @@
+HEADER    DE NOVO PROTEIN                         24-OCT-17   6BE9              
+TITLE     SOLUTION STRUCTURE OF DE NOVO MACROCYCLE DESIGN7.1                    
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: T(DLY)NDT(DSG)(DPR);                                       
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 SYNTHETIC: YES;                                                      
+SOURCE   3 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   4 ORGANISM_TAXID: 9606                                                 
+KEYWDS    MACROCYCLE, DE NOVO, DE NOVO PROTEIN                                  
+EXPDTA    SOLUTION NMR                                                          
+NUMMDL    20                                                                    
+AUTHOR    M.D.SHORTRIDGE,P.HOSSEINZADEH,F.PARDO-AVILA,G.VARANI,B.BAKER          
+REVDAT   3   14-JUN-23 6BE9    1       REMARK LINK                              
+REVDAT   2   17-JAN-18 6BE9    1       REMARK                                   
+REVDAT   1   27-DEC-17 6BE9    0                                                
+JRNL        AUTH   P.HOSSEINZADEH,G.BHARDWAJ,V.K.MULLIGAN,M.D.SHORTRIDGE,       
+JRNL        AUTH 2 T.W.CRAVEN,F.PARDO-AVILA,S.A.RETTIE,D.E.KIM,D.A.SILVA,       
+JRNL        AUTH 3 Y.M.IBRAHIM,I.K.WEBB,J.R.CORT,J.N.ADKINS,G.VARANI,D.BAKER    
+JRNL        TITL   COMPREHENSIVE COMPUTATIONAL DESIGN OF ORDERED PEPTIDE        
+JRNL        TITL 2 MACROCYCLES.                                                 
+JRNL        REF    SCIENCE                       V. 358  1461 2017              
+JRNL        REFN                   ESSN 1095-9203                               
+JRNL        PMID   29242347                                                     
+JRNL        DOI    10.1126/SCIENCE.AAP7577                                      
+REMARK   2                                                                      
+REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : GROMACS 2016.1                                       
+REMARK   3   AUTHORS     : ABRAHAM                                              
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK   4                                                                      
+REMARK   4 6BE9 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 27-OCT-17.                  
+REMARK 100 THE DEPOSITION ID IS D_1000230759.                                   
+REMARK 210                                                                      
+REMARK 210 EXPERIMENTAL DETAILS                                                 
+REMARK 210  EXPERIMENT TYPE                : NMR                                
+REMARK 210  TEMPERATURE           (KELVIN) : 278                                
+REMARK 210  PH                             : 5.5                                
+REMARK 210  IONIC STRENGTH                 : 0                                  
+REMARK 210  PRESSURE                       : 1 ATM                              
+REMARK 210  SAMPLE CONTENTS                : 5 MG/ML DESIGN7.1, 5 % V/V [U      
+REMARK 210                                   -2H] GLYCEROL, 90% H2O/10% D2O     
+REMARK 210                                                                      
+REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D 1H-1H TOCSY; 2D 1H-1H NOESY;    
+REMARK 210                                   2D 1H-15N HSQC                     
+REMARK 210  SPECTROMETER FIELD STRENGTH    : 500 MHZ                            
+REMARK 210  SPECTROMETER MODEL             : DRX                                
+REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
+REMARK 210                                                                      
+REMARK 210  STRUCTURE DETERMINATION.                                            
+REMARK 210   SOFTWARE USED                 : X-PLOR NIH, SPARKY                 
+REMARK 210   METHOD USED                   : MOLECULAR DYNAMICS                 
+REMARK 210                                                                      
+REMARK 210 CONFORMERS, NUMBER CALCULATED   : 200                                
+REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
+REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST         
+REMARK 210                                   ENERGY                             
+REMARK 210                                                                      
+REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
+REMARK 210                                                                      
+REMARK 210 REMARK: NULL                                                         
+REMARK 215                                                                      
+REMARK 215 NMR STUDY                                                            
+REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
+REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
+REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
+REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500  1 THR A   1   CA  -  CB  -  CG2 ANGL. DEV. = -10.5 DEGREES          
+REMARK 500  6 ASP A   4   CB  -  CG  -  OD1 ANGL. DEV. =   7.5 DEGREES          
+REMARK 500  9 ASP A   4   CB  -  CG  -  OD2 ANGL. DEV. =   6.2 DEGREES          
+REMARK 500 12 THR A   5   CA  -  CB  -  CG2 ANGL. DEV. =   9.0 DEGREES          
+REMARK 500 13 DPR A   7   C   -  N   -  CA  ANGL. DEV. =   9.2 DEGREES          
+REMARK 500 19 ASN A   3   N   -  CA  -  CB  ANGL. DEV. = -11.0 DEGREES          
+REMARK 500 20 DPR A   7   N   -  CA  -  CB  ANGL. DEV. =   7.8 DEGREES          
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500  1 ASP A   4      109.93    -48.13                                   
+REMARK 500  2 ASP A   4      101.61    -58.65                                   
+REMARK 500  5 THR A   5       19.76     54.02                                   
+REMARK 500  6 ASN A   3      -68.61   -125.91                                   
+REMARK 500  7 DLY A   2      -19.27    153.10                                   
+REMARK 500  7 ASN A   3      -77.30   -135.81                                   
+REMARK 500  8 DLY A   2        0.86    159.21                                   
+REMARK 500  8 ASN A   3     -112.91   -144.10                                   
+REMARK 500  8 THR A   5      -19.92     55.92                                   
+REMARK 500  9 DLY A   2       45.03    141.84                                   
+REMARK 500  9 THR A   5       -1.57     65.62                                   
+REMARK 500 10 DLY A   2      -35.28    156.86                                   
+REMARK 500 10 ASN A   3      -60.84   -121.60                                   
+REMARK 500 10 THR A   5       -9.23     68.68                                   
+REMARK 500 12 DLY A   2       25.37    145.51                                   
+REMARK 500 13 DLY A   2      -17.17    150.68                                   
+REMARK 500 13 ASN A   3      -67.72   -130.80                                   
+REMARK 500 13 THR A   5       47.39     33.89                                   
+REMARK 500 15 DLY A   2      -21.68    145.62                                   
+REMARK 500 15 ASN A   3      -55.09   -148.44                                   
+REMARK 500 15 ASP A   4       85.59    -50.27                                   
+REMARK 500 17 DLY A   2      -38.75    145.59                                   
+REMARK 500 18 THR A   5       40.96     30.95                                   
+REMARK 500 19 DLY A   2       15.25    141.18                                   
+REMARK 500 19 THR A   5       17.59     57.63                                   
+REMARK 500 19 DSG A   6      -86.32    151.82                                   
+REMARK 500 20 DLY A   2       30.18    143.68                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: NON-CIS, NON-TRANS                                         
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING PEPTIDE BONDS DEVIATE SIGNIFICANTLY FROM BOTH          
+REMARK 500 CIS AND TRANS CONFORMATION.  CIS BONDS, IF ANY, ARE LISTED           
+REMARK 500 ON CISPEP RECORDS.  TRANS IS DEFINED AS 180 +/- 30 AND               
+REMARK 500 CIS IS DEFINED AS 0 +/- 30 DEGREES.                                  
+REMARK 500                                 MODEL     OMEGA                      
+REMARK 500 THR A    1     DLY A    2          7       146.97                    
+REMARK 500 DLY A    2     ASN A    3         11      -149.84                    
+REMARK 500 THR A    5     DSG A    6         19       130.99                    
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 30356   RELATED DB: BMRB                                 
+REMARK 900 SOLUTION STRUCTURE OF DE NOVO MACROCYCLE DESIGN7.1                   
+DBREF  6BE9 A    1     7  PDB    6BE9     6BE9             1      7             
+SEQRES   1 A    7  THR DLY ASN ASP THR DSG DPR                                  
+HET    DLY  A   2      22                                                       
+HET    DSG  A   6      14                                                       
+HET    DPR  A   7      14                                                       
+HETNAM     DLY D-LYSINE                                                         
+HETNAM     DSG D-ASPARAGINE                                                     
+HETNAM     DPR D-PROLINE                                                        
+FORMUL   1  DLY    C6 H14 N2 O2                                                 
+FORMUL   1  DSG    C4 H8 N2 O3                                                  
+FORMUL   1  DPR    C5 H9 N O2                                                   
+LINK         C   THR A   1                 N   DLY A   2     1555   1555  1.33  
+LINK         N   THR A   1                 C   DPR A   7     1555   1555  1.33  
+LINK         C   DLY A   2                 N   ASN A   3     1555   1555  1.34  
+LINK         C   THR A   5                 N   DSG A   6     1555   1555  1.33  
+LINK         C   DSG A   6                 N   DPR A   7     1555   1555  1.33  
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+MODEL        1                                                                  
+ATOM      1  N   THR A   1      29.150  47.100   4.420  1.00  0.00           N  
+ATOM      2  CA  THR A   1      30.570  47.040   4.700  1.00  0.00           C  
+ATOM      3  C   THR A   1      30.930  45.710   5.350  1.00  0.00           C  
+ATOM      4  O   THR A   1      31.730  45.750   6.280  1.00  0.00           O  
+ATOM      5  CB  THR A   1      31.070  48.220   5.540  1.00  0.00           C  
+ATOM      6  OG1 THR A   1      30.260  48.600   6.630  1.00  0.00           O  
+ATOM      7  CG2 THR A   1      30.920  49.380   4.570  1.00  0.00           C  
+ATOM      8  H1  THR A   1      28.560  47.500   5.140  1.00  0.00           H  
+ATOM      9  HA  THR A   1      31.080  47.090   3.740  1.00  0.00           H  
+ATOM     10  HB  THR A   1      32.110  48.160   5.860  1.00  0.00           H  
+ATOM     11  HG1 THR A   1      30.170  47.880   7.250  1.00  0.00           H  
+ATOM     12 HG21 THR A   1      29.850  49.540   4.440  1.00  0.00           H  
+ATOM     13 HG22 THR A   1      31.450  49.190   3.630  1.00  0.00           H  
+ATOM     14 HG23 THR A   1      31.320  50.340   4.920  1.00  0.00           H  
+HETATM   15  N   DLY A   2      30.400  44.570   4.920  1.00  0.00           N  
+HETATM   16  CA  DLY A   2      30.690  43.270   5.480  1.00  0.00           C  
+HETATM   17  C   DLY A   2      29.670  42.310   4.870  1.00  0.00           C  
+HETATM   18  O   DLY A   2      29.450  42.230   3.670  1.00  0.00           O  
+HETATM   19  CB  DLY A   2      32.050  42.800   4.980  1.00  0.00           C  
+HETATM   20  CG  DLY A   2      33.120  42.820   6.070  1.00  0.00           C  
+HETATM   21  CD  DLY A   2      34.420  42.190   5.600  1.00  0.00           C  
+HETATM   22  CE  DLY A   2      35.590  42.550   6.510  1.00  0.00           C  
+HETATM   23  NZ  DLY A   2      36.830  41.860   6.130  1.00  0.00           N  
+HETATM   24  H   DLY A   2      29.690  44.630   4.200  1.00  0.00           H  
+HETATM   25  HA  DLY A   2      30.540  43.260   6.560  1.00  0.00           H  
+HETATM   26  HB2 DLY A   2      32.290  43.380   4.090  1.00  0.00           H  
+HETATM   27  HB3 DLY A   2      31.890  41.790   4.590  1.00  0.00           H  
+HETATM   28  HG2 DLY A   2      32.780  42.410   7.020  1.00  0.00           H  
+HETATM   29  HG3 DLY A   2      33.210  43.880   6.300  1.00  0.00           H  
+HETATM   30  HD2 DLY A   2      34.660  42.730   4.680  1.00  0.00           H  
+HETATM   31  HD3 DLY A   2      34.330  41.100   5.510  1.00  0.00           H  
+HETATM   32  HE2 DLY A   2      35.320  42.430   7.560  1.00  0.00           H  
+HETATM   33  HE3 DLY A   2      35.730  43.620   6.380  1.00  0.00           H  
+HETATM   34  HZ1 DLY A   2      37.090  42.040   5.170  1.00  0.00           H  
+HETATM   35  HZ2 DLY A   2      36.690  40.860   6.130  1.00  0.00           H  
+HETATM   36  HZ3 DLY A   2      37.570  42.060   6.780  1.00  0.00           H  
+ATOM     37  N   ASN A   3      29.170  41.420   5.730  1.00  0.00           N  
+ATOM     38  CA  ASN A   3      28.290  40.300   5.450  1.00  0.00           C  
+ATOM     39  C   ASN A   3      26.960  40.540   6.150  1.00  0.00           C  
+ATOM     40  O   ASN A   3      26.030  40.520   5.350  1.00  0.00           O  
+ATOM     41  CB  ASN A   3      29.000  39.030   5.930  1.00  0.00           C  
+ATOM     42  CG  ASN A   3      30.230  38.770   5.080  1.00  0.00           C  
+ATOM     43  OD1 ASN A   3      30.110  38.500   3.890  1.00  0.00           O  
+ATOM     44  ND2 ASN A   3      31.480  38.940   5.530  1.00  0.00           N  
+ATOM     45  H   ASN A   3      29.380  41.630   6.700  1.00  0.00           H  
+ATOM     46  HA  ASN A   3      28.160  40.260   4.370  1.00  0.00           H  
+ATOM     47  HB2 ASN A   3      29.310  39.120   6.970  1.00  0.00           H  
+ATOM     48  HB3 ASN A   3      28.300  38.200   5.940  1.00  0.00           H  
+ATOM     49 HD21 ASN A   3      31.610  39.280   6.470  1.00  0.00           H  
+ATOM     50 HD22 ASN A   3      32.180  38.670   4.860  1.00  0.00           H  
+ATOM     51  N   ASP A   4      26.830  40.800   7.450  1.00  0.00           N  
+ATOM     52  CA  ASP A   4      25.620  41.280   8.080  1.00  0.00           C  
+ATOM     53  C   ASP A   4      24.940  42.460   7.390  1.00  0.00           C  
+ATOM     54  O   ASP A   4      25.460  43.570   7.360  1.00  0.00           O  
+ATOM     55  CB  ASP A   4      25.860  41.640   9.550  1.00  0.00           C  
+ATOM     56  CG  ASP A   4      24.600  41.950  10.340  1.00  0.00           C  
+ATOM     57  OD1 ASP A   4      24.710  42.490  11.460  1.00  0.00           O  
+ATOM     58  OD2 ASP A   4      23.470  41.730   9.850  1.00  0.00           O  
+ATOM     59  H   ASP A   4      27.620  40.630   8.060  1.00  0.00           H  
+ATOM     60  HA  ASP A   4      24.910  40.460   8.180  1.00  0.00           H  
+ATOM     61  HB2 ASP A   4      26.270  40.740  10.020  1.00  0.00           H  
+ATOM     62  HB3 ASP A   4      26.480  42.530   9.650  1.00  0.00           H  
+ATOM     63  N   THR A   5      23.780  42.190   6.790  1.00  0.00           N  
+ATOM     64  CA  THR A   5      22.990  43.180   6.090  1.00  0.00           C  
+ATOM     65  C   THR A   5      23.790  43.900   5.010  1.00  0.00           C  
+ATOM     66  O   THR A   5      23.720  45.130   4.890  1.00  0.00           O  
+ATOM     67  CB  THR A   5      22.230  44.050   7.080  1.00  0.00           C  
+ATOM     68  OG1 THR A   5      21.590  43.110   7.910  1.00  0.00           O  
+ATOM     69  CG2 THR A   5      21.080  44.840   6.450  1.00  0.00           C  
+ATOM     70  H   THR A   5      23.310  41.300   6.930  1.00  0.00           H  
+ATOM     71  HA  THR A   5      22.230  42.650   5.530  1.00  0.00           H  
+ATOM     72  HB  THR A   5      22.910  44.660   7.680  1.00  0.00           H  
+ATOM     73  HG1 THR A   5      22.220  42.670   8.490  1.00  0.00           H  
+ATOM     74 HG21 THR A   5      20.400  44.130   5.970  1.00  0.00           H  
+ATOM     75 HG22 THR A   5      21.280  45.700   5.810  1.00  0.00           H  
+ATOM     76 HG23 THR A   5      20.440  45.310   7.200  1.00  0.00           H  
+HETATM   77  N   DSG A   6      24.520  43.140   4.200  1.00  0.00           N  
+HETATM   78  CA  DSG A   6      25.330  43.620   3.100  1.00  0.00           C  
+HETATM   79  C   DSG A   6      26.330  44.700   3.470  1.00  0.00           C  
+HETATM   80  O   DSG A   6      27.150  44.550   4.380  1.00  0.00           O  
+HETATM   81  CB  DSG A   6      26.130  42.430   2.580  1.00  0.00           C  
+HETATM   82  CG  DSG A   6      25.340  41.250   2.030  1.00  0.00           C  
+HETATM   83  OD1 DSG A   6      24.120  41.150   1.950  1.00  0.00           O  
+HETATM   84  ND2 DSG A   6      26.010  40.110   1.840  1.00  0.00           N  
+HETATM   85  H   DSG A   6      24.440  42.150   4.410  1.00  0.00           H  
+HETATM   86  HA  DSG A   6      24.680  43.830   2.250  1.00  0.00           H  
+HETATM   87  HB2 DSG A   6      26.770  42.030   3.360  1.00  0.00           H  
+HETATM   88  HB3 DSG A   6      26.880  42.740   1.860  1.00  0.00           H  
+HETATM   89 HD21 DSG A   6      27.010  40.190   1.750  1.00  0.00           H  
+HETATM   90 HD22 DSG A   6      25.550  39.220   1.690  1.00  0.00           H  
+HETATM   91  N   DPR A   7      26.420  45.810   2.740  1.00  0.00           N  
+HETATM   92  CA  DPR A   7      27.060  47.030   3.190  1.00  0.00           C  
+HETATM   93  CB  DPR A   7      26.600  48.150   2.260  1.00  0.00           C  
+HETATM   94  CG  DPR A   7      26.240  47.390   0.980  1.00  0.00           C  
+HETATM   95  CD  DPR A   7      25.760  46.030   1.460  1.00  0.00           C  
+HETATM   96  C   DPR A   7      28.570  46.840   3.250  1.00  0.00           C  
+HETATM   97  O   DPR A   7      29.240  46.430   2.310  1.00  0.00           O  
+HETATM   98  HA  DPR A   7      26.710  47.260   4.200  1.00  0.00           H  
+HETATM   99  HB2 DPR A   7      27.230  49.010   2.070  1.00  0.00           H  
+HETATM  100  HB3 DPR A   7      25.650  48.510   2.660  1.00  0.00           H  
+HETATM  101  HG2 DPR A   7      27.220  47.250   0.520  1.00  0.00           H  
+HETATM  102  HG3 DPR A   7      25.560  47.950   0.340  1.00  0.00           H  
+HETATM  103  HD2 DPR A   7      25.970  45.230   0.760  1.00  0.00           H  
+HETATM  104  HD3 DPR A   7      24.690  46.130   1.660  1.00  0.00           H  
+TER     105      DPR A   7                                                      
+ENDMDL                                                                          
+CONECT    1   96                                                                
+CONECT    3   15                                                                
+CONECT   15    3   16   24                                                      
+CONECT   16   15   17   19   25                                                 
+CONECT   17   16   18   37                                                      
+CONECT   18   17                                                                
+CONECT   19   16   20   26   27                                                 
+CONECT   20   19   21   28   29                                                 
+CONECT   21   20   22   30   31                                                 
+CONECT   22   21   23   32   33                                                 
+CONECT   23   22   34   35                                                      
+CONECT   24   15                                                                
+CONECT   25   16                                                                
+CONECT   26   19                                                                
+CONECT   27   19                                                                
+CONECT   28   20                                                                
+CONECT   29   20                                                                
+CONECT   30   21                                                                
+CONECT   31   21                                                                
+CONECT   32   22                                                                
+CONECT   33   22                                                                
+CONECT   34   23                                                                
+CONECT   35   23                                                                
+CONECT   37   17                                                                
+CONECT   65   77                                                                
+CONECT   77   65   78   85                                                      
+CONECT   78   77   79   81   86                                                 
+CONECT   79   78   80   91                                                      
+CONECT   80   79                                                                
+CONECT   81   78   82   87   88                                                 
+CONECT   82   81   83   84                                                      
+CONECT   83   82                                                                
+CONECT   84   82   89   90                                                      
+CONECT   85   77                                                                
+CONECT   86   78                                                                
+CONECT   87   81                                                                
+CONECT   88   81                                                                
+CONECT   89   84                                                                
+CONECT   90   84                                                                
+CONECT   91   79   92   95                                                      
+CONECT   92   91   93   96   98                                                 
+CONECT   93   92   94   99  100                                                 
+CONECT   94   93   95  101  102                                                 
+CONECT   95   91   94  103  104                                                 
+CONECT   96    1   92   97                                                      
+CONECT   97   96                                                                
+CONECT   98   92                                                                
+CONECT   99   93                                                                
+CONECT  100   93                                                                
+CONECT  101   94                                                                
+CONECT  102   94                                                                
+CONECT  103   95                                                                
+CONECT  104   95                                                                
+MASTER      153    0    3    0    0    0    0    6   54    1   53    1          
+END                                                                             
