@@ -1,0 +1,74 @@
+# good clustercenters
+bg_color white
+hide
+
+set label_size, 15
+set label_color, black
+set label_font_id, 7
+
+show sticks, backbone
+
+color green
+color blue, name n
+color red, name o
+color white, name h
+
+set dash_color, hotpink
+set dash_gap, 0.25
+set dash_length, 0.25
+set dash_round_ends, 0
+
+select hydrophobic, resn ALA+ILE+LEU+VAL+DAL+DIL+DLE+DVA+MET+DME+PHE+DPH
+color orange, hydrophobic
+
+select P, resn PRO+DPR
+color purple, P
+
+show spheres
+
+
+# S4
+bg_color white
+hide
+
+set label_size, 15
+set label_color, black
+set label_font_id, 7
+
+show sticks, backbone
+
+color green
+color blue, name n
+color red, name o
+color white, name h
+
+set dash_color, hotpink
+set dash_gap, 0.25
+set dash_length, 0.25
+set dash_round_ends, 0
+
+select hydrophobic, resn LEU+DLE+AIB
+color orange, hydrophobic
+
+select polar, resn HIS+DHI
+color cyan, polar
+
+show sticks, polar
+show sticks, hydrophobic
+
+select name N+CA+C+O
+align S4_Design and sele, LowEnergy_S4Design_0001 and sele
+align S4-1 and sele, LowEnergy_S4Design_0001 and sele
+
+color green, LowEnergy_S4Design_0001
+color red, S4_Design
+color blue, S4-1
+
+select name N+CA+C+O
+align S4_inside_out and sele, LowEnergy_S4Design_RMSD5_0001 and sele
+align S4_inside_out_crystal and sele, LowEnergy_S4Design_RMSD5_0001 and sele
+
+color green, LowEnergy_S4Design_RMSD5_0001
+color red, S4_inside_out
+color blue, S4_inside_out_crystal
+
