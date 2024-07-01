@@ -6,7 +6,7 @@ To run the pipeline for _n_ residue macrocycle design, the following steps are t
    - For parameters $k_0$, $b$, $c_{rama}$, $c_{rep}$, $c_{cyc}$, $c_{hbond}$, and $c_{other}$, use combinatorial design to select possible parameter settings. Pivots can be used to select more settings, suggested pivots are $k_0$ and $b$. Used settings for the paper are stored in parameters_combdesign*n*.mat files. To install the combinatorial design program, please check this website https://cs.nyu.edu/~shasha/papers/comb.html.
    - Run Energy_*n*residue_parameter.m to find optimal parameter setting. Results stored in GoodCount*n*.mat.
    - All other parameters can be determined using linear interpolation as described in the paper.
-2. Run simulated annealing Energy_*n*residue.mat for different backbone initial configurations.
+2. Run simulated annealing Energy_*n*residue.mat for different backbone initial configurations. Two 15-residue sample runs are displayed in SampleRun_15res_4.pse, SampleRun_15res_10.pse.
 3. Cluster sampled good backbone candidates. Run Clustering.m in Clustercenters_*n*res folders, and results stored in ClusterCenters.mat.
 4. Run Rosetta's _FastRelax_ to relax the backbones, and select backbones with low energies for sequence design.
 5. Run Rosetta's _FastDesign_ to add sidechains, and select designs with low energies for energy landscape stability test.
