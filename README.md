@@ -12,8 +12,8 @@ To run the pipeline for _n_ residue macrocycle design, the following steps are t
    - Temperature dropping rates: $c_{rama} \sim 4$, $c_{rep} \sim 14$, $c_{cyc} \sim 18$, $c_{hbond} \sim 20$ [*]
 2. Run simulated annealing Energy_*n*residue.mat to find good backbone candidates. Two 15-residue sample runs are displayed in SampleRun_15res_4.pse, SampleRun_15res_10.pse.
 3. Run Clustering.m in Clustercenters_*n*res folders to cluster sampled good backbone candidates.
-4. Run Rosetta's _FastRelax_ to relax the backbones, and select backbones with low energies for sequence design.
-5. Run Rosetta's _FastDesign_ to add sidechains, and select designs with low energies for energy landscape stability test.
+4. Run Rosetta's _FastRelax_ to relax the backbones, and select backbones with low energies for sequence design. Example scripts are provided as relax_script.xml.
+5. Run Rosetta's _FastDesign_ to add sidechains, and select designs with low energies for energy landscape stability test. Example scripts are provided as design_script.xml.
 6. Generate energy landscapes for selected designs.
    - For 7 residues, use _Ramachandran-stability filtering_ test in Clustercenters_7res/Pnear_Modified/Pnear_sampling.m
    - For 15-24 residues, use _ClusterGen_ test. Run Clustercenters_*n*res/Pnear_Modified/Pnear_sampling_SA_*n*res.m. Perform Rosetta's _FastRelax_ with designed sequences to form initial populations for genetic algorithm. Run Clustercenters_*n*res/Pnear_Modified/Pnear_sampling_GA_*n*res.m.
