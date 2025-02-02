@@ -3,14 +3,17 @@ This is the cyclic peptide design pipeline, _CyclicChamp_, developed in the pape
 
 To run the pipeline for _n_ residue macrocycle design, the following steps are taken.
 1. Determine simulated annealing backbone sampling parameters.
-   - For parameters $k_0$, $b$, $c_{rama}$, $c_{rep}$, $c_{cyc}$, $c_{hbond}$, and $c_{other}$, use combinatorial design to select possible parameter settings. Pivots can be used to select more settings, suggested pivots are $k_0$ and $b$. Used settings for the paper are stored in parameters_combdesign*n*.mat files. To install the combinatorial design program, please check this website https://cs.nyu.edu/~shasha/papers/comb.html.
-   - Run Energy_*n*residue_parameter.m to find optimal parameter setting. Results stored in GoodCount*n*.mat.
-   - All other parameters can be determined using linear interpolation as described in the paper.
-2. Run simulated annealing Energy_*n*residue.mat for different backbone initial configurations. Two 15-residue sample runs are displayed in SampleRun_15res_4.pse, SampleRun_15res_10.pse.
-3. Cluster sampled good backbone candidates. Run Clustering.m in Clustercenters_*n*res folders, and results stored in ClusterCenters.mat.
-4. Run Rosetta's _FastRelax_ to relax the backbones, and select backbones with low energies for sequence design.
-5. Run Rosetta's _FastDesign_ to add sidechains, and select designs with low energies for energy landscape stability test.
-6. Generate energy landscapes for selected designs.
+   - Energy thresholds: $E_{thr,rama}=8n$, $E_{thr,rep}=10+(n-7)*10/17$, $E_{thr,cyc}=1$, $H_{thr,count}=n/3$
+   - Good backbone candidate criteria: $E_{thr,rep}=5+(n-7)*10/17$, $E_{thr,cyc}=1$, $H_{thr,count}=n/3$
+   - Initial temperatures for simulated annealing: $T_{0,rama}=10+(n-7)*20/17$, $T_{0,rep}=20+(n-7)*80/17$, $T_{0,cyc}=2+(n-7)*4/17$, $T_{0,hbond}=2+(n-7)*4/17$
+   - Random move disk radius: $k_0 \in [0.5,1]$ and smaller value for larger $n$, $b \in [15,18]$ and larger value for larger $n$
+   - Temperature dropping rates: $c_{rama} \sim 4$, $c_{rep} \sim 14$, $c_{cyc} \sim 18$, $c_{hbond} \sim 20$
+   * For parameters $k_0$, $b$, $c_{rama}$, $c_{rep}$, $c_{cyc}$, $c_{hbond}$, and $c_{other}$, if you want higher success rate of finding good backbones, you could use combinatorial design to obtain well-spaced parameter settings. To install the combinatorial design program, please check this website https://cs.nyu.edu/~shasha/papers/comb.html. If too parameter settings are generated, pivots can be used to reduce the number of settings. Suggested pivots are $k_0$ and $b$. Used settings for the paper are stored in parameters_combdesign*n*.mat files. Then run Energy_*n*residue_parameter.m to find the optimal parameter setting. Results for the paper are stored in GoodCount*n*.mat.
+3. Run simulated annealing Energy_*n*residue.mat for different backbone initial configurations. Two 15-residue sample runs are displayed in SampleRun_15res_4.pse, SampleRun_15res_10.pse.
+4. Cluster sampled good backbone candidates. Run Clustering.m in Clustercenters_*n*res folders, and results stored in ClusterCenters.mat.
+5. Run Rosetta's _FastRelax_ to relax the backbones, and select backbones with low energies for sequence design.
+6. Run Rosetta's _FastDesign_ to add sidechains, and select designs with low energies for energy landscape stability test.
+7. Generate energy landscapes for selected designs.
    - For 7 residues, use _Ramachandran-stability filtering_ test in Clustercenters_7res/Pnear_Modified/Pnear_sampling.m
    - For 15-24 residues, use _ClusterGen_ test. Run Clustercenters_*n*res/Pnear_Modified/Pnear_sampling_SA_*n*res.m. Perform Rosetta's _FastRelax_ with designed sequences to form initial populations for genetic algorithm. Run Clustercenters_*n*res/Pnear_Modified/Pnear_sampling_GA_*n*res.m.
   
