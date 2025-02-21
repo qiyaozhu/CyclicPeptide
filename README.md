@@ -4,7 +4,7 @@ This is the cyclic peptide design pipeline, _CyclicChamp_, developed in the pape
 This pipelines requires installation of Rosetta on your device. For installation instructions, see https://docs.rosettacommons.org/docs/latest/getting_started/Getting-Started
 
 To run the pipeline for _n_ residue macrocycle design, the following steps are taken.
-1. Determine simulated annealing backbone sampling parameters.
+1. Determine simulated annealing backbone sampling parameters for Ramachandran energy ($rama$), repulsive energy ($rep$), cyclic backbone closure deviation ($cyc$), hydrogen bond energy ($hbond$), and number of hydrogen bonds ($count$).
    - Energy thresholds: $E_{thr,rama}=8n$, $E_{thr,rep}=10+\frac{(n-7)*10}{17}$, $E_{thr,cyc}=1$, $H_{thr,count}=\lceil n/3\rceil$
    - Good backbone candidate criteria: $E_{cri,rep}=5+\frac{(n-7)*10}{17}$, $E_{cri,cyc}=1$, $H_{cri,count}=\lceil n/3\rceil$
    - Initial temperatures for simulated annealing: $T_{0,rama}=10+\frac{(n-7)*20}{17}$, $T_{0,rep}=20+\frac{(n-7)*80}{17}$, $T_{0,cyc}=2+\frac{(n-7)*4}{17}$, $T_{0,hbond}=2+\frac{(n-7)*4}{17}$
